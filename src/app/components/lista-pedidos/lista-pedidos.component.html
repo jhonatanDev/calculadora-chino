@@ -1,0 +1,21 @@
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover border-Light align-middle">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Total</th>
+          <th>Valor Pedido</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider fs-4">
+        <tr *ngFor="let item of domicilios;let i = index">
+          <th>{{i + 1 | number}}</th>
+          <td class="">{{item.valor | number}}</td>
+          <td>{{item.valorTransporte | number}}</td>
+          <td><button class="btn btn-danger">X</button></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>

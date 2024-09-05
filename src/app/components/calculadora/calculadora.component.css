@@ -1,0 +1,11 @@
+.keypad-btn {
+  width: 100%;
+  height: 80px;
+  border-radius: 20px; /* Botones redondeados */
+  font-size: 24px;
+  background-color: #007bff; /* Color azul */
+  color: white;
+}
+  .keypad-btn:active {
+    background-color: #0056b3; /* Color azul más oscuro al presionar */
+  }
